@@ -40,8 +40,18 @@ ul {
   margin: 0;
 }
 
-nav li {
+li {
   margin: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+main img {
+  width: 424px;
+  height: 424px;
 }
 
 .pics-area {
@@ -50,7 +60,28 @@ nav li {
   justify-content: center;
 }
 
-main img {
-  width: 424px;
-  height: 424px;
+.pic {
+  margin: 0 9 0 9;
+}
+
+div.pic .preview {
+  border-radius: 3px;
+    display: block;
+    border: solid #cacaca;
+    background: #fff;
+    text-align: center;
+    overflow: hidden;
+    border-width: 1px;
+    line-height: 0px;
+}
+
+main .pic {
+  font-size: 16px;
+  color: #666;
+  font-weight: bold;
+  text-align: right;
+  padding: 12px 0 12px 0;
+  margin: 0 12px 22px;
+  border-bottom: 1px solid #cacaca;
+  position: relative ; 
 }
