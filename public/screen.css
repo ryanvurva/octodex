@@ -6,3 +6,51 @@ body {
   margin: 0;
   font: 16px / 1 sans-serif;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(243, 243, 243);
+  margin: 0;
+  padding: 15 20;
+}
+
+h1 {
+  background-image: url('./images/logo.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  text-decoration: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
+}
+
+nav li {
+  margin: 1em;
+}
+
+.pics-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+main img {
+  width: 424px;
+  height: 424px;
+}
