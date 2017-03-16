@@ -3,8 +3,13 @@ html {
 }
 
 body {
-  margin: 0;
-  font: 16px / 1 sans-serif;
+  font: 13px helvetica,arial,freesans,clean,sans-serif;
+    line-height: 1.4em;
+    background-color: #fff;
+    color: #333333;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
 }
 
 header {
@@ -49,33 +54,38 @@ a {
   color: inherit;
 }
 
-main img {
-  width: 424px;
-  height: 424px;
-}
-
-.pics-area {
+.main-area {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.pic {
-  margin: 0 9 0 9;
+body div.pic {
+  width: 446px;
 }
 
-div.pic .preview {
+.pic img {
   border-radius: 3px;
-    display: block;
-    border: solid #cacaca;
-    background: #fff;
-    text-align: center;
-    overflow: hidden;
-    border-width: 1px;
-    line-height: 0px;
+  display: block;
+  border: solid #cacaca;
+  background: #fff;
+  text-align: center;
+  overflow: hidden;
+  border-width: 1px;
+  line-height: 0px;
+  margin: 0 9 0 9;
+
 }
 
-main .pic {
+div.pic a.preview img {
+  margin: 10px;
+    width: 424px;
+    height: 424px;
+    max-width: 424px;
+    max-height: 424px;
+}
+
+main .pic-info {
   font-size: 16px;
   color: #666;
   font-weight: bold;
@@ -83,5 +93,24 @@ main .pic {
   padding: 12px 0 12px 0;
   margin: 0 12px 22px;
   border-bottom: 1px solid #cacaca;
-  position: relative ; 
+  position: relative ;
+}
+
+main div.pic-info p.number {
+  float: left;
+  margin: 5px 0 0 0;
+  color: #cacaca;
+}
+
+span {
+  color: #777;
+}
+
+div.pics-area div.pic-info p.cat-name {
+  display: inline-block;
+  margin: 0px 5px 0px 0px;
+}
+
+footer {
+  display: flex;
 }
