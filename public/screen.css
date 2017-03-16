@@ -83,11 +83,14 @@ body div.pic {
 }
 
 div.pic a.preview img {
-  margin: 10px;
-    width: 424px;
-    height: 424px;
-    max-width: 424px;
-    max-height: 424px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 0;
+  width: 424px;
+  height: 424px;
+  max-width: 424px;
+  max-height: 424px;
 }
 
 main .pic-info {
@@ -121,6 +124,20 @@ div.footer-cell {
   justify-content: space-between;
   align-items: center;
   color: #4183C4;
+}
+
+.pics-area .pic-info:before {
+  content: "";
+  display: block;
+  height: 0;
+  width: 0;
+  border: 8px solid transparent;
+  border-top-color: #cacaca;
+  position: absolute;
+  right: 2px;
+  top: 0;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .mega-icon {
