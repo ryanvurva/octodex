@@ -111,6 +111,12 @@ div.pics-area div.pic-info p.cat-name {
   margin: 0px 5px 0px 0px;
 }
 
-footer {
+div.footer-cell {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mega-icon {
+  opacity: 0.5;
 }
