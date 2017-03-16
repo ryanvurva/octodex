@@ -18,6 +18,7 @@ header {
   background-color: rgb(243, 243, 243);
   margin: 0;
   padding: 15 20;
+  align-items: center;
 }
 
 h1 {
@@ -26,13 +27,17 @@ h1 {
   background-size: contain;
   background-repeat: no-repeat;
   color: transparent;
-  margin: 0;
+  margin-left: 5px;
   padding: 0;
 }
 
 nav {
   margin: 0;
   padding: 0;
+}
+
+nav li {
+  font-weight: bold;
 }
 
 ul {
@@ -113,8 +118,9 @@ div.pics-area div.pic-info p.cat-name {
 
 div.footer-cell {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  color: #4183C4;
 }
 
 .mega-icon {
